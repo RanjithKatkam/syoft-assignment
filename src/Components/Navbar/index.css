@@ -1,0 +1,43 @@
+.header {
+    height: 12%;
+    background-color: rgb(150, 172, 194);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 120px;
+    mix-blend-mode: multiply;
+    margin-left: 5%;
+}
+
+.profile {
+    width: 40px;
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+.a {
+    margin-right: 5%;
+}
+
+.logout-button {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #222222;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    letter-spacing: -1px;
+}
+
+@media (max-width: 720px) {
+    .logout-button {
+        width: 85px;
+        font-size: 12px;
+    }
+}
